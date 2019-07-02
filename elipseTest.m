@@ -5,3 +5,6 @@ clear all; close all;
 %
 E = ellipse(2, 5, 1, 4);
 E.render
+
+x=9
+xxx=999

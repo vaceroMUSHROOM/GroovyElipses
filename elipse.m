@@ -8,11 +8,19 @@ classdef ellipse < handle
     end
     
     methods
+<<<<<<< HEAD
+        function this = ellipse(x,y,xscale,yscale, color)
+=======
         function this = ellipse(x,y,xscale,yscale)
+>>>>>>> master
             this.xc = x;
             this.yc = y;
             this.a = xscale;
             this.b = yscale;
+<<<<<<< HEAD
+            this.c = color; 
+=======
+>>>>>>> master
         end
         
         function render(this)
